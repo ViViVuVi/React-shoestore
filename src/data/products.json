@@ -1,0 +1,182 @@
+[
+  {
+    "id": "n1",
+    "name": "Nike Air Zoom Pegasus 40",
+    "price": 2390000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/pegasus-40.jpg",
+    "description": "Giày chạy bộ nhẹ, êm ái, phù hợp mọi địa hình và cự ly dài."
+  },
+  {
+    "id": "n2",
+    "name": "Nike Air Max 270",
+    "price": 3100000,
+    "brand": "Nike",
+    "category": "Lifestyle",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/airmax270.jpg",
+    "description": "Đế Air lớn mang lại cảm giác đàn hồi vượt trội cho cả ngày dài."
+  },
+  {
+    "id": "n3",
+    "name": "Nike Air Force 1 '07",
+    "price": 2900000,
+    "brand": "Nike",
+    "category": "Casual",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/airforce1-07.jpg",
+    "description": "Phong cách cổ điển, dễ phối đồ, phù hợp cho mọi dịp."
+  },
+  {
+    "id": "n4",
+    "name": "Nike Dunk Low Retro",
+    "price": 2700000,
+    "brand": "Nike",
+    "category": "Skateboarding",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/dunk-low.jpg",
+    "description": "Thiết kế cổ điển với phần da cao cấp, mang phong cách đường phố."
+  },
+  {
+    "id": "n5",
+    "name": "Nike ZoomX Vaporfly Next%",
+    "price": 5800000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/vaporfly-next.jpg",
+    "description": "Hiệu năng cao cấp cho vận động viên chuyên nghiệp."
+  },
+  {
+    "id": "n6",
+    "name": "Nike Blazer Mid '77 Vintage",
+    "price": 2500000,
+    "brand": "Nike",
+    "category": "Casual",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/blazer-mid.jpg",
+    "description": "Thiết kế retro kết hợp hiện đại, phong cách đường phố năng động."
+  },
+  {
+    "id": "n7",
+    "name": "Nike React Infinity Run Flyknit 3",
+    "price": 3400000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/react-infinity.jpg",
+    "description": "Công nghệ React giảm chấn, mang lại cảm giác ổn định và êm ái."
+  },
+  {
+    "id": "n8",
+    "name": "Nike Metcon 9",
+    "price": 3300000,
+    "brand": "Nike",
+    "category": "Training",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/metcon-9.jpg",
+    "description": "Thiết kế chắc chắn, bám sàn tốt, lý tưởng cho tập gym và crossfit."
+  },
+  {
+    "id": "n9",
+    "name": "Nike Air Zoom Alphafly NEXT%",
+    "price": 6800000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/alphafly-next.jpg",
+    "description": "Hiệu năng đỉnh cao dành cho marathon, tối ưu tốc độ và độ nảy."
+  },
+  {
+    "id": "n10",
+    "name": "Nike SB Dunk High Pro",
+    "price": 2900000,
+    "brand": "Nike",
+    "category": "Skateboarding",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/sb-dunk-high.jpg",
+    "description": "Đệm cổ chân dày, hỗ trợ tối đa cho các cú nhảy và trượt ván."
+  },
+  {
+    "id": "n11",
+    "name": "Nike Free RN 5.0",
+    "price": 2100000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/free-rn.jpg",
+    "description": "Đế linh hoạt giúp chuyển động tự nhiên và nhẹ nhàng."
+  },
+  {
+    "id": "n12",
+    "name": "Nike Air Max 90",
+    "price": 3000000,
+    "brand": "Nike",
+    "category": "Lifestyle",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/airmax90.jpg",
+    "description": "Mẫu kinh điển với đế Air huyền thoại, mang lại phong cách bất hủ."
+  },
+  {
+    "id": "n13",
+    "name": "Nike LeBron 21",
+    "price": 5600000,
+    "brand": "Nike",
+    "category": "Basketball",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/lebron-21.jpg",
+    "description": "Hiệu năng tối đa trên sân bóng rổ, hỗ trợ bật nhảy và di chuyển nhanh."
+  },
+  {
+    "id": "n14",
+    "name": "Nike Air Jordan 1 Mid",
+    "price": 4100000,
+    "brand": "Nike",
+    "category": "Basketball",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/air-jordan1.jpg",
+    "description": "Thiết kế biểu tượng của dòng Air Jordan, phong cách thể thao và sang trọng."
+  },
+  {
+    "id": "n15",
+    "name": "Nike Waffle Trainer 2",
+    "price": 2400000,
+    "brand": "Nike",
+    "category": "Casual",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/waffle-trainer.jpg",
+    "description": "Đế waffle cổ điển, bám tốt và nhẹ, phù hợp phong cách retro."
+  },
+  {
+    "id": "n16",
+    "name": "Nike Air Huarache",
+    "price": 2800000,
+    "brand": "Nike",
+    "category": "Lifestyle",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/air-huarache.jpg",
+    "description": "Phối màu trẻ trung, form ôm chân, cực kỳ thoải mái."
+  },
+  {
+    "id": "n17",
+    "name": "Nike Air Zoom Structure 25",
+    "price": 3200000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/zoom-structure.jpg",
+    "description": "Thiết kế hỗ trợ chuyển động ổn định, phù hợp người chạy hàng ngày."
+  },
+  {
+    "id": "n18",
+    "name": "Nike Zoom Freak 5",
+    "price": 4900000,
+    "brand": "Nike",
+    "category": "Basketball",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/zoom-freak5.jpg",
+    "description": "Giày signature của Giannis Antetokounmpo, hỗ trợ tốc độ và bật nhảy."
+  },
+  {
+    "id": "n19",
+    "name": "Nike Invincible 3",
+    "price": 3500000,
+    "brand": "Nike",
+    "category": "Running",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/invincible-3.jpg",
+    "description": "Công nghệ ZoomX êm ái, giảm áp lực tối đa cho bàn chân."
+  },
+  {
+    "id": "n20",
+    "name": "Nike Air Max Plus",
+    "price": 3600000,
+    "brand": "Nike",
+    "category": "Lifestyle",
+    "image": "https://static.nike.com/a/images/t_prod/w_960,c_limit,f_auto/airmax-plus.jpg",
+    "description": "Thiết kế mang phong cách cá tính, nổi bật với khung gợn sóng đặc trưng."
+  }
+]
