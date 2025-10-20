@@ -15,9 +15,10 @@ function Home() {
       <Row className="mt-5">
         <Col>
           <img
-            src="https://static.nike.com/a/images/f_auto,b_rgb:f5f5f5,w_1200,c_limit/nike-shoes-banner.jpg"
+            src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/abbc2d6e-05e7-4c9c-9060-3bbd090a1136/NIKE+ZOOM+VOMERO+5+SE.png"
             alt="Nike Shoes"
             className="img-fluid rounded shadow"
+            width={600}
           />
         </Col>
       </Row>
