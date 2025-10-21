@@ -40,19 +40,19 @@ const featuredProducts = [
   {
     id: 1,
     title: "Nike Air Max 270",
-    img: "./src/image/shoe2.jpg",
+    img: "./image/shoe2.jpg",
     price: "4,500,000 VND",
   },
   {
     id: 2,
     title: "Nike Pegasus 40",
-    img: "./src/image/shoe1.jpg",
+    img: "./image/shoe1.jpg",
     price: "3,900,000 VND",
   },
   {
     id: 3,
     title: "Nike ZoomX",
-    img: "./src/image/shoe3.jpg",
+    img: "./image/shoe3.jpg",
     price: "5,200,000 VND",
   },
 ];
@@ -66,7 +66,7 @@ function Home() {
           {/* Video YouTube */}
           <video
             className="d-block w-100"
-            src="./src/image/8533112-hd_1280_720_25fps.mp4" // đường dẫn tới video
+            src="./image/8533112-hd_1280_720_25fps.mp4" // đường dẫn tới video
             autoPlay
             loop
             muted
@@ -85,7 +85,7 @@ function Home() {
         <Carousel.Item>
           <video
             className="d-block w-100"
-            src="./src/image/8533114-hd_1280_720_25fps.mp4" // đường dẫn tới video
+            src="./image/8533114-hd_1280_720_25fps.mp4" // đường dẫn tới video
             autoPlay
             loop
             muted
@@ -110,7 +110,7 @@ function Home() {
           <Col md={3} sm={6}>
             <div className="position-relative overflow-hidden rounded-4" style={{ height: "460px" }}>
               <img
-                src="./src/image/pic1.jpg"
+                src="./image/pic1.jpg"
                 alt="Basketball"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}
@@ -128,7 +128,7 @@ function Home() {
           <Col md={3} sm={6}>
             <div className="position-relative overflow-hidden rounded-4" style={{ height: "460px" }}>
               <img
-                src="./src/image/pic2.jpg"
+                src="./image/pic2.jpg"
                 alt="Running"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}
@@ -146,7 +146,7 @@ function Home() {
           <Col md={3} sm={6}>
             <div className="position-relative overflow-hidden rounded-4" style={{ height: "460px" }}>
               <img
-                src="./src/image/pic3.jpg"
+                src="./image/pic3.jpg"
                 alt="Football"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}
@@ -164,7 +164,7 @@ function Home() {
           <Col md={3} sm={6}>
             <div className="position-relative overflow-hidden rounded-4" style={{ height: "460px" }}>
               <img
-                src="./src/image/pic4.jpg"
+                src="./image/pic4.jpg"
                 alt="Training"
                 className="w-100 h-100"
                 style={{ objectFit: "cover" }}
