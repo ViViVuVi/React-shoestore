@@ -12,7 +12,7 @@ function Checkout() {
     phone: "",
     address: "",
   });
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.name || !form.phone || !form.address) {

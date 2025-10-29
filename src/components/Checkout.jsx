@@ -52,7 +52,11 @@ function Checkout() {
   };
 
   // ✅ Hàm chuẩn để load ảnh đúng kể cả khi deploy ở subfolder
-  const getImage = (path) => `${import.meta.env.BASE_URL}${path.replace("./", "/")}`;
+  const getImage = (path) => {
+  if (Array.isArray(path)) path = path[0]; // lấy ảnh đầu tiên nếu là array
+  return `${import.meta.env.BASE_URL}${path.replace("./", "/")}`;
+};
+
 
   return (
     <div className="container py-4">

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function ProductCard({ product }) {
   return (
     <Card className="h-100 shadow-sm">
-      <Card.Img variant="top" src={product.image} alt={product.name} style={{ height: 220, objectFit: "cover" }} />
+      <Card.Img variant="top" src={product.image[0]} alt={product.name} style={{ height: 220, objectFit: "cover" }} />
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text><strong>{product.price.toLocaleString()} ₫</strong></Card.Text>

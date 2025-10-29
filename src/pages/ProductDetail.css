@@ -1,0 +1,310 @@
+/* ====== CHI TIẾT SẢN PHẨM ====== */
+.product-detail-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left-column {
+  display: flex;
+  gap: 20px;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+  opacity: 1;
+  border: 2px solid #000;
+}
+
+.main-image img {
+  width: 420px;
+  border-radius: 12px;
+  background: #f8f8f8;
+  padding: 10px;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.price {
+  color: #d12b2b;
+  font-weight: bold;
+}
+
+.size-section {
+  margin-top: 20px;
+}
+
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.size-btn {
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.size-btn.selected,
+.size-btn:hover {
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-btn,
+.viewcart-btn,
+.fav-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.add-btn {
+  background-color: #333;
+  color: white;
+}
+
+.add-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.viewcart-btn {
+  background-color: #333;
+  color: white;
+}
+
+.viewcart-btn:hover {
+  background-color: #333;
+}
+
+.fav-btn {
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+
+.desc {
+  margin-top: 20px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* ====== PHẦN MÔ TẢ NÂNG CAO (FULL WIDTH) ====== */
+.extra-more{
+    display: flex;
+    justify-content: center;
+}
+.tech-info {
+  width: 100%;
+  justify-content: center;
+  background: #f9f9f9;
+  margin-top: 60px;
+  padding: 60px 8%;
+  border-top: 1px solid #eee;
+}
+
+.tech-info h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.tech-item {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.tech-item .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.tech-details {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.tech-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.tech-details ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  line-height: 1.6;
+  color: #444;
+}
+/* ---------- PHẦN FEATURES ---------- */
+.feature-section {
+  max-width: 1200px;
+  width: 100%;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.feature-section h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-card {
+  flex: 1 1 340px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.feature-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 16px 20px 8px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #555;
+  margin: 0 20px 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .feature-card img {
+    height: 200px;
+  }
+}
+.recommend-section {
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.recommend-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.recommend-card {
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.recommend-card:hover {
+  transform: translateY(-5px);
+}
+
+.recommend-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.recommend-info {
+  padding: 15px;
+}
+
+.recommend-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.recommend-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.recommend-info h5 {
+  font-size: 1rem;
+  color: #111;
+  font-weight: 600;
+}
